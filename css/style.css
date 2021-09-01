@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+.row::after{
+    content:'';
+    clear: both;
+    display: table;
+}
+.col-1{width:8.33%; padding: 0 15px; float: left;}
+.col-2{width:16.66%; padding: 0 15px; float: left;}
+.col-3{width:25%; padding: 0 15px; float: left;}
+.col-4{width:33.33%; padding: 0 15px; float: left;}
+.col-5{width:41.66%; padding: 0 15px; float: left;}
+.col-6{width:50%; padding: 0 15px; float: left;}
+.col-7{width:58.33%; padding: 0 15px; float: left;}
+.col-8{width:66.66%; padding: 0 15px; float: left;}
+.col-9{width:75%; padding: 0 15px; float: left;}
+.col-10{width:83.33%; padding: 0 15px; float: left;}
+.col-11{width:91.66%; padding: 0 15px; float: left;}
+.col-12{width:100%; padding: 0 15px; float: left;}
+
+
+
+.header1 a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.header1 a:hover{
+    color: #08b0ee;
+}
+.header-2 ul{
+    float: right;
+}
+.header-2 li {
+    display: inline-block;
+}
+.header-2 li a{
+    float: left;
+    text-decoration: none;
+    padding: 35px 15px;
+    color: black;
+}
+.header-2 li a:hover{
+    color: #08b0ee;
+}
+
+.header-1 .nav1 ul{
+    float: right;
+}
+.header-1 .nav1 li{
+    display: inline-block;
+}
+.header-1 .nav1 li a:hover{
+ color: #08b0ee;
+}
+.header-1 .nav1 li a{
+    float: left;
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #fdfeff;
+}
+.banner .col-12{
+    background-image: url(../Images/banner.jpg);
+    height: 620px;
+    
+}
+.header-1 .nav2 li{
+    display: inline-block;
+}
+.header-1 .nav2 li a{
+    float: left;
+    text-decoration: none;
+    padding: 0 15px;
+    color: #b2b3b8;
+}
+.header-1 .nav2 li a:hover{
+    color: #08b0ee;
+}
+.main-header .header-1{
+    background-color: #061333;
+    
+}
+.main-header .header-2{
+    background-color: #ffffff;
+}
+.footer-1 .hov:hover{
+    background-image: url('../Images/slider_img.jpg');
+}
+.footer-1 .icon ul li{
+    display: inline-block;
+}
+.footer-1 .icon ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 25px;
+    background-color: #08b0ee;
+}
+.footer-1 .icon ul li a:hover{
+    color: #08b0ee;
+}
